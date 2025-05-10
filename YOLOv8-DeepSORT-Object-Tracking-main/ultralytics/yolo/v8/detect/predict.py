@@ -11,8 +11,7 @@ import torch
 import torch.backends.cudnn as cudnn
 from numpy import random
 from ultralytics.yolo.engine.predictor import BasePredictor
-#from ultralytics.yolo.utils import DEFAULT_CONFIG, ROOT, ops
-from ultralytics.utils import DEFAULT_CONFIG_DICT, ROOT, ops
+from ultralytics.yolo.utils import DEFAULT_CONFIG, ROOT, ops
 from ultralytics.yolo.utils.checks import check_imgsz
 from ultralytics.yolo.utils.plotting import Annotator, colors, save_one_box
 
